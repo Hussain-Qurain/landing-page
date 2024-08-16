@@ -1,33 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    flex: 1 0 auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 28px;
+    align-items: center;
+    margin-bottom: 100px;
+    flex: 1 0 auto;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.images .container img,
+.images .container span {
+    flex: auto;
+    max-width: 300px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    gap: 15px;
+}
+
+.container img {
+    border-radius: 10px;
+}
+
+.images .container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 22px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.top,
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding: 16px;
+    gap: 24px;
+    align-items: center;
+}
+
+.bottom {
+    margin-bottom: 100px;
+}
+
+.left,
+.right {
+    min-height: 240px;
+    max-width: 600px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+
+}
+
+.footer {
+    flex: 0 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
 .dark-bg {
     background: #1F2937;
 }
+
 .bold-text {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
+
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
 }
-.logo{
+
+.logo {
     font-size: 24px;
     color: #F9FAF8;
 }
+
 .cta {
     background-color: #3882F6;
+    padding: 8px 24px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 7px;
+    border-color: #3882F6;
+
+    display: flex;
+    justify-content: space-around;
 }
+
 .information {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937
 }
+
 .quote {
     background: #E5E7EB;
+    padding: 100px 25%;
+    display: flex;
+    flex-direction: column;
 }
+
 .quote-text {
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 500;
+    font-size: large;
+    flex: 1 0 auto;
+}
+
+.call {
+    padding: 100px 19%;
+}
+
+.call .cta {
+    padding: 70px 110px;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.cta button {
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
+    background-color:#3882F6;
+    color: #F9FAF8;
 }
