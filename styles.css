@@ -1,0 +1,33 @@
+.dark-bg {
+    background: #1F2937;
+}
+.bold-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.cta {
+    background-color: #3882F6;
+}
+.information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937
+}
+.quote {
+    background: #E5E7EB;
+}
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
